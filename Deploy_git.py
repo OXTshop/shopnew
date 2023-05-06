@@ -26,6 +26,6 @@ paut.write('git status', interval=0.05)
 paut.press('enter')
 time.sleep(1)
 
-paut.write('git commit -m "{date.today}"')
+paut.write(f'git commit -m "{date.today}"')
 paut.press('enter')
 
