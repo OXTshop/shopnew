@@ -29,3 +29,5 @@ time.sleep(1)
 paut.write(f'git commit -m "{date.today}"')
 paut.press('enter')
 
+time.sleep(0.8)
+paut.write('git push https://github.com/GuilhermeTeo/NEWPAGE.git master -f')
