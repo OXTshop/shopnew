@@ -4,8 +4,10 @@ import os
 from datetime import date
 
 
-data_hoje = date.today()
-print(data_hoje)
+data_atual = date.today()
+data_em_texto = data_atual.strftime('%d/%m/%Y')
+print(data_em_texto)
+
 paut.hotkey('win','r')
 paut.write('cmd', interval=0.1)
 paut.press('enter')
@@ -26,7 +28,7 @@ paut.write('git status', interval=0.05)
 paut.press('enter')
 time.sleep(1)
 
-paut.write(f'git commit -m "{date.today}"')
+paut.write(f'git commit -m "{data_em_texto}"')
 paut.press('enter')
 
 time.sleep(0.8)
