@@ -34,7 +34,7 @@ paut.press('enter')
 time.sleep(0.8)
 paut.write('git push https://github.com/GuilhermeTeo/NEWPAGE.git master -f')
 paut.press('enter')
-time.sleep(5)
+time.sleep(4)
 
 paut.write('exit')
 paut.press('enter')
