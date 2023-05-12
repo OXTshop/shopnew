@@ -18,7 +18,7 @@ paut.press('enter')
 
 time.sleep(0.5)
 
-paut.write("cd C:/server_index_github", interval=0.05)
+paut.write("cd C:/OXT", interval=0.05)
 paut.press('enter')
 paut.write("git init", interval=0.05)
 paut.press('enter')

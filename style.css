@@ -12,7 +12,7 @@ ul.produtos {
 }
 
 ul.produtos li {
-    
+
     display: inline-block;
     width: 200px;
     padding: 10px;
@@ -47,7 +47,7 @@ ul li:hover {
 ul.produtos li img {
     max-width: 100%;
     height: auto;
-    
+
 }
 
 /* ul menu fim */
@@ -77,12 +77,25 @@ ul.produtos li img {
 .topnav a.active {
     background-color: #04AA6D;
     color: white;
+    width: 60px;
 }
 
-.lefnav{
+.lefnav {
     display: inline-flex;
     background-color: #777373;
     height: 1500px;
     width: 108px;
-  
+
+}
+
+.list {
+    float: left;
+    color: red;
+}
+
+.bl000 {
+    background-color: #333;
+    height: 1000px;
+    width: 110px;
+    float: left;
 }
