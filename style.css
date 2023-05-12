@@ -1,5 +1,12 @@
 /* Estilos CSS para o layout dos produtos */
+.bl000 {
+    box-sizing: border-box;
+    float: left;
+    background-color: #333;
+    height: 1000px;
+    width: 110px;
 
+}
 ul.produtos {
 
     list-style-type: none;
@@ -88,10 +95,3 @@ ul.produtos li img {
 
 }
 
-.bl000 {
-    display: inline-block;
-    background-color: #333;
-    height: 1000px;
-    width: 110px;
-
-}
