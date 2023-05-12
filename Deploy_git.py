@@ -32,7 +32,7 @@ paut.write(f'git commit -m "{data_em_texto}"')
 paut.press('enter')
 
 time.sleep(0.8)
-paut.write('git push https://github.com/GuilhermeTeo/NEWPAGE.git master -f')
+paut.write('git push https://github.com/OXTshop/shopnew.git master -f')
 paut.press('enter')
 time.sleep(4)
 
