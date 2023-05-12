@@ -89,7 +89,7 @@ ul.produtos li img {
 }
 
 .bl000 {
-    float: left;
+    display: inline-block;
     background-color: #333;
     height: 1000px;
     width: 110px;
