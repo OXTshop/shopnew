@@ -1,14 +1,4 @@
-/* Estilos CSS para o layout dos produtos */
-@media screen and (max-width: 992px) {
-    div, p, h1,h2,h3,ul,li, .produto, .topnav{};
-  }
 
-/*caso resolução for no máximo 685px*/
-  @media screen and (max-width: 685px) {
-    .container{
-        display: block;
-    }
-  }
 .bl000 {
     box-sizing: border-box;
     float: left;
