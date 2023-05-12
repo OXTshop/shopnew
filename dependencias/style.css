@@ -4,13 +4,17 @@
     float: left;
     background-color: #333;
     height: 1000px;
-    width: 110px;
+    width: 116px;
 
+}
+.Color_green{
+    color: rgb(0, 126, 63);
+    font-size: 20px;
 }
 ul.produtos {
 
     list-style-type: none;
-    padding-top: 0px;
+    padding-top: 25px;
     padding-left: 0px;
     margin-top: 0px;
     margin-left: 170px;
@@ -91,7 +95,5 @@ ul.produtos li img {
     display: inline-flex;
     background-color: #777373;
     height: 1500px;
-    width: 108px;
-
 }
 
