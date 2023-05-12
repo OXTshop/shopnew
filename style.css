@@ -88,14 +88,9 @@ ul.produtos li img {
 
 }
 
-.list {
-    float: left;
-    color: red;
-}
-
 .bl000 {
     background-color: #812e2e;
     height: 1000px;
     width: 110px;
-    float: left;
+
 }
