@@ -19,7 +19,7 @@ ul.produtos {
     padding-top: 25px;
     padding-left: 0px;
     margin-top: 0px;
-    margin-left: 60px;
+    margin-left: 40px;
     margin-right: 20px;
 
 }
@@ -97,5 +97,5 @@ ul.produtos li img {
 .lefnav {
     display: inline-flex;
     background-color: #777373;
-    height: 1500px;
+
 }
