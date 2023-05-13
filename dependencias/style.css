@@ -1,7 +1,4 @@
 
-
-
-
 .bl000 {
     box-sizing: border-box;
     float: left;
@@ -30,7 +27,7 @@ ul.produtos {
 ul.produtos li {
 
     display: inline-block;
-    width: 200px;
+    width: 300px;
     padding: 10px;
     text-align: center;
     align-items: center;
@@ -80,7 +77,7 @@ ul.produtos li img {
     text-align: center;
     padding: 26px 28px;
     text-decoration: none;
-    font-size: 21px;
+    font-size: 55px;
 }
 
 /* Change the color of links on hover */
@@ -93,7 +90,8 @@ ul.produtos li img {
 .topnav a.active {
     background-color: #04AA6D;
     color: white;
-    width: 60px;
+    width: 180px;
+
 }
 
 .lefnav {
