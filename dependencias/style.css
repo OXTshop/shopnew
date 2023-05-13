@@ -27,8 +27,8 @@ ul.produtos {
 ul.produtos li {
 
     display: inline-block;
-    width: 300px;
-    padding: 10px;
+    width: 400px;
+    padding: 4px;
     text-align: center;
     align-items: center;
 
@@ -59,7 +59,7 @@ ul li:hover {
 
 ul.produtos li img {
     max-width: 100%;
-    height: auto;
+    height: 300px;
 
 }
 
