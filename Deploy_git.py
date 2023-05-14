@@ -5,7 +5,7 @@ from datetime import date
 
 
 data_atual = date.today()
-data_em_texto = data_atual.strftime('%d/%m/%Y')
+data_em_texto = data_atual.strftime('%d/%m/%Y %H:%M:%S')
 print(data_em_texto)
 
 paut.hotkey('win','r')
