@@ -1,13 +1,16 @@
 import pyautogui as paut
 import time
 import os
-from datetime import date
+from datetime import datetime
 import pytz
 
-fuso_horario = pytz.timezone('UTC')
-data_atual = date.today()
-data_em_texto = data_atual.strftime('%d/%m/%Y %H:%M:%S')
-print(data_em_texto)
+
+
+data_atual = datetime.now()
+hora_atual = data_atual.strftime('%H:%M:%S')
+data_em_texto = data_atual.strftime('%d/%m/%Y')
+
+print(data_em_texto, hora_atual)
 
 paut.hotkey('win','r')
 paut.write('cmd', interval=0.1)
