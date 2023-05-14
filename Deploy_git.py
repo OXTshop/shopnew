@@ -2,8 +2,9 @@ import pyautogui as paut
 import time
 import os
 from datetime import date
+import pytz
 
-
+fuso_horario = pytz.timezone('UTC')
 data_atual = date.today()
 data_em_texto = data_atual.strftime('%d/%m/%Y %H:%M:%S')
 print(data_em_texto)
