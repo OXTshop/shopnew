@@ -74,7 +74,7 @@
         float: left;
         color: #f2f2f2;
         text-align: center;
-        padding: 26px 28px;
+        padding: 22px 24px;
         text-decoration: none;
         font-size: 10px;
 
@@ -97,6 +97,7 @@
         background-color: #04AA6D;
         color: white;
         width: 20px;
+        height: 8px;
 
     }
 
