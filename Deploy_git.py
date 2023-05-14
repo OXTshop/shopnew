@@ -32,7 +32,7 @@ paut.write('git status', interval=0.05)
 paut.press('enter')
 time.sleep(1)
 
-paut.write(f'git commit -m "{data_em_texto}"')
+paut.write(f'git commit -m "{data_em_texto}, {hora_atual}"')
 paut.press('enter')
 
 time.sleep(0.8)
